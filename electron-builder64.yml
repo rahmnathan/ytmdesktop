@@ -33,6 +33,7 @@ mac:
 linux:
   icon: assets
   category: AudioVideo
+  plugs: ["desktop", "desktop-legacy", "home", "x11", "unity7", "browser-support", "network", "gsettings", "pulseaudio", "opengl", "raw-usb"]
   publish:
     provider: generic
     url: 'https://dl.ytmdesktop.app/lin'
